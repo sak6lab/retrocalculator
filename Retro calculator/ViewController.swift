@@ -88,7 +88,7 @@ class ViewController: UIViewController {
                     result = "\(Double(leftVal)! - Double(rightVal)!)"
                 }
                 else if operation == Operation.Multiply{
-                    result = "\(Double(leftVal)! + Double(rightVal)!)"
+                    result = "\(Double(leftVal)! * Double(rightVal)!)"
                 }else{
                     result = "\(Double(leftVal)! / Double(rightVal)!)"
                 }
