@@ -14,6 +14,8 @@
 		F52F774D1D22F9F6009B45B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52F774B1D22F9F6009B45B4 /* LaunchScreen.storyboard */; };
 		F52F77581D22F9F6009B45B4 /* Retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F77571D22F9F6009B45B4 /* Retro_calculatorTests.swift */; };
 		F52F77631D22F9F6009B45B4 /* Retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F77621D22F9F6009B45B4 /* Retro_calculatorUITests.swift */; };
+		F52F77711D23325B009B45B4 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F52F77701D23325B009B45B4 /* Minecraft.ttf */; };
+		F52F77731D234D0D009B45B4 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F52F77721D234D0D009B45B4 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F52F775E1D22F9F6009B45B4 /* Retro calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retro calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52F77621D22F9F6009B45B4 /* Retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_calculatorUITests.swift; sourceTree = "<group>"; };
 		F52F77641D22F9F6009B45B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52F77701D23325B009B45B4 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		F52F77721D234D0D009B45B4 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				F52F77461D22F9F6009B45B4 /* Main.storyboard */,
 				F52F77491D22F9F6009B45B4 /* Assets.xcassets */,
 				F52F774B1D22F9F6009B45B4 /* LaunchScreen.storyboard */,
+				F52F77721D234D0D009B45B4 /* btn.wav */,
+				F52F77701D23325B009B45B4 /* Minecraft.ttf */,
 				F52F774E1D22F9F6009B45B4 /* Info.plist */,
 			);
 			path = "Retro calculator";
@@ -229,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52F77731D234D0D009B45B4 /* btn.wav in Resources */,
 				F52F774D1D22F9F6009B45B4 /* LaunchScreen.storyboard in Resources */,
 				F52F774A1D22F9F6009B45B4 /* Assets.xcassets in Resources */,
+				F52F77711D23325B009B45B4 /* Minecraft.ttf in Resources */,
 				F52F77481D22F9F6009B45B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +490,7 @@
 				F52F77691D22F9F6009B45B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F52F776A1D22F9F6009B45B4 /* Build configuration list for PBXNativeTarget "Retro calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				F52F776C1D22F9F6009B45B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F52F776D1D22F9F6009B45B4 /* Build configuration list for PBXNativeTarget "Retro calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				F52F776F1D22F9F6009B45B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
